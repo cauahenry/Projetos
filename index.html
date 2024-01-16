@@ -1,11 +1,661 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olá</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeLab</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="IMG/icon do site.ico" type="image/x-icon">
+  </head>
+  <body>
+    <!-- Inicio -->
+    <div
+      class="container p-5 mt-4"
+      style="
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        margin-bottom: 16px;
+        position: relative;
+      "
+    >
+      <img
+        class="macaquinho1"
+        src="./IMG/Macaquinho 1.png"
+        alt="Macaquinho 1"
+        style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          max-width: 150px;
+          max-height: 150px;
+        "
+      />
+      <img
+        class="macaquinho2"
+        src="./IMG/Macaquinho 2.png"
+        alt="Macaquinho 2"
+        style="
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          max-width: 150px;
+          max-height: 150px;
+        "
+      />
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <nav class="navbar">
+            <div class="container">
+              <div
+                class="mx-auto p-2 d-flex flex-column flex-md-row align-items-center"
+              >
+                <img
+                  class="logocodelab order-1 order-md-2 with-box-shadow"
+                  src="./IMG/logo_codelab__1_-removebg-preview.png"
+                  alt="Logo"
+                  width="350rem"
+                  height="350rem"
+                  class="d-inline-block"
+                />
+                <div class="texto order-2 order-md-1">
+                  <h1 class="title">CODELAB</h1>
+                  <p class="subtitle">
+                    Transformando sonhos em <br />
+                    realidade digital!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!--Seção de textos-->
+    <section>
+      <div class="container mt-3" id="titulo-1">
+        <h2 id="titulo-1">O QUE É A CODELAB?</h2>
+        <div class="row">
+          <div class="col-md-6 mt-4 order-md-1 order-2">
+            <p class="paragrafo1">
+              Codelab é uma empresa de desenvolvimento de softwares que oferece
+              soluções inovadoras para empresas de todos os tamanhos. Nossa
+              equipe de especialistas em tecnologia está comprometida em criar
+              softwares que sejam eficientes, escaláveis e fáceis de usar. Dessa
+              forma, ajudamos nossos clientes a melhorar seu negócio e a
+              oferecer experiências melhores para seus clientes e usuários. Além
+              disso, nossos softwares também podem ajudar a melhorar a
+              produtividade e a satisfação da equipe.
+            </p>
+          </div>
+          <div class="col-md-6 mt-3 order-md-2 order-1">
+            <img
+              src="./IMG/Fotoequipe.png"
+              alt="Imagem"
+              class="img-fluid ms-auto"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mt-3">
+            <img src="./IMG/Fotoequipe.png" alt="Imagem" class="img-fluid" />
+          </div>
+          <div class="col-md-6 mt-3">
+            <h2 class="titulo-2" id="objetivo">NOSSO OBJETIVO COMO EMPRESA</h2>
+            <p class="paragrafo2">
+              Nossa missão é ajudar nossos clientes a alcançar seus objetivos de
+              negócios por meio da tecnologia. Acreditamos que os softwares
+              podem ser uma ferramenta poderosa para melhorar a produtividade, a
+              eficiência e a satisfação do cliente e a organização da sua
+              empresa. Não esquecendo de sempre buscar: inovação, qualidade e
+              profissionalismos em nossas atividades.
+            </p>
+          </div>
+        </div>
+    </section>
+
+        <!--Seção de carrossel-->
+        <section>
+          <div class="container mt-5">
+            <h3 id="equipe">CONHEÇA NOSSA EQUIPE</h3>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <!--slide 1-->
+                <div class="swiper-slide mt-5">
+                  <div
+                    class="card text-center rounded-3 mt-5"
+                    style="width: 17rem; background-color: #000"
+                  >
+                    <div
+                      class="position-absolute start-50 translate-middle"
+                      style="width: 100px; height: 100px"
+                    >
+                      <img
+                        src="./IMG/Cinza.jpg"
+                        alt="Image"
+                        style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 50%;
+                          border: 5px solid #000;
+                        "
+                      />
+                    </div>
+                    <div class="card-body mt-5">
+                      <h5
+                        class="card-title pt-2 fw-bold"
+                        style="
+                          color: #fff;
+                          font-family: 'Montserrat', sans-serif;
+                        "
+                      >
+                        Nome
+                      </h5>
+                      <p class="card-text py-2" style="color: #fff">
+                        Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. it has roots in a piece of classical Latin
+                        literature from
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide mt-5">
+                  <div
+                    class="card text-center rounded-3 mt-5"
+                    style="width: 17rem; background-color: #000"
+                  >
+                    <div
+                      class="position-absolute start-50 translate-middle"
+                      style="width: 100px; height: 100px"
+                    >
+                      <img
+                        src="./IMG/Cinza.jpg"
+                        alt="Image"
+                        style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 50%;
+                          border: 5px solid #000;
+                        "
+                      />
+                    </div>
+                    <div class="card-body mt-5">
+                      <h5
+                        class="card-title pt-2 fw-bold"
+                        style="
+                          color: #fff;
+                          font-family: 'Montserrat', sans-serif;
+                        "
+                      >
+                        Nome
+                      </h5>
+                      <p class="card-text py-2" style="color: #fff">
+                        Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. it has roots in a piece of classical Latin
+                        literature from
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide mt-5">
+                  <div
+                    class="card text-center rounded-3 mt-5"
+                    style="width: 17rem; background-color: #000"
+                  >
+                    <div
+                      class="position-absolute start-50 translate-middle"
+                      style="width: 100px; height: 100px"
+                    >
+                      <img
+                        src="./IMG/Cinza.jpg"
+                        alt="Image"
+                        style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 50%;
+                          border: 5px solid #000;
+                        "
+                      />
+                    </div>
+                    <div class="card-body mt-5">
+                      <h5
+                        class="card-title pt-2 fw-bold"
+                        style="
+                          color: #fff;
+                          font-family: 'Montserrat', sans-serif;
+                        "
+                      >
+                        Nome
+                      </h5>
+                      <p class="card-text py-2" style="color: #fff">
+                        Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. it has roots in a piece of classical Latin
+                        literature from
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="swiper-slide mt-5">
+                  <div
+                    class="card text-center rounded-3 mt-5"
+                    style="width: 17rem; background-color: #000"
+                  >
+                    <div
+                      class="position-absolute start-50 translate-middle"
+                      style="width: 100px; height: 100px"
+                    >
+                      <img
+                        src="./IMG/Cinza.jpg"
+                        alt="Image"
+                        style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 50%;
+                          border: 5px solid #000;
+                        "
+                      />
+                    </div>
+                    <div class="card-body mt-5">
+                      <h5
+                        class="card-title pt-2 fw-bold"
+                        style="
+                          color: #fff;
+                          font-family: 'Montserrat', sans-serif;
+                        "
+                      >
+                        Nome
+                      </h5>
+                      <p class="card-text py-2" style="color: #fff">
+                        Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. it has roots in a piece of classical Latin
+                        literature from
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 5 -->
+                <div class="swiper-slide mt-5">
+                  <div
+                    class="card text-center rounded-3 mt-5"
+                    style="width: 17rem; background-color: #000"
+                  >
+                    <div
+                      class="position-absolute start-50 translate-middle"
+                      style="width: 100px; height: 100px"
+                    >
+                      <img
+                        src="./IMG/Cinza.jpg"
+                        alt="Image"
+                        style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 50%;
+                          border: 5px solid #000;
+                        "
+                      />
+                    </div>
+                    <div class="card-body mt-5">
+                      <h5
+                        class="card-title pt-2 fw-bold"
+                        style="
+                          color: #fff;
+                          font-family: 'Montserrat', sans-serif;
+                        "
+                      >
+                        Nome
+                      </h5>
+                      <p class="card-text py-2" style="color: #fff">
+                        Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. it has roots in a piece of classical Latin
+                        literature from
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 6 -->
+                <div class="swiper-slide mt-5">
+                  <div
+                    class="card text-center rounded-3 mt-5"
+                    style="width: 17rem; background-color: #000"
+                  >
+                    <div
+                      class="position-absolute start-50 translate-middle"
+                      style="width: 100px; height: 100px"
+                    >
+                      <img
+                        src="./IMG/Cinza.jpg"
+                        alt="Image"
+                        style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 50%;
+                          border: 5px solid #000;
+                        "
+                      />
+                    </div>
+                    <div class="card-body mt-5">
+                      <h5
+                        class="card-title pt-2 fw-bold"
+                        style="
+                          color: #fff;
+                          font-family: 'Montserrat', sans-serif;
+                        "
+                      >
+                        Nome
+                      </h5>
+                      <p class="card-text py-2" style="color: #fff">
+                        Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. it has roots in a piece of classical Latin
+                        literature from
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 7 -->
+                <div class="swiper-slide mt-5">
+                  <div
+                    class="card text-center rounded-3 mt-5"
+                    style="width: 17rem; background-color: #000"
+                  >
+                    <div
+                      class="position-absolute start-50 translate-middle"
+                      style="width: 100px; height: 100px"
+                    >
+                      <img
+                        src="./IMG/Cinza.jpg"
+                        alt="Image"
+                        style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 50%;
+                          border: 5px solid #000;
+                        "
+                      />
+                    </div>
+                    <div class="card-body mt-5">
+                      <h5
+                        class="card-title pt-2 fw-bold"
+                        style="
+                          color: #fff;
+                          font-family: 'Montserrat', sans-serif;
+                        "
+                      >
+                        Nome
+                      </h5>
+                      <p class="card-text py-2" style="color: #fff">
+                        Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. it has roots in a piece of classical Latin
+                        literature from
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slide 8 -->
+                <div class="swiper-slide mt-5">
+                  <div
+                    class="card text-center rounded-3 mt-5"
+                    style="width: 17rem; background-color: #000"
+                  >
+                    <div
+                      class="position-absolute start-50 translate-middle"
+                      style="width: 100px; height: 100px"
+                    >
+                      <img
+                        src="./IMG/Cinza.jpg"
+                        alt="Image"
+                        style="
+                          width: 100%;
+                          height: 100%;
+                          object-fit: cover;
+                          border-radius: 50%;
+                          border: 5px solid #000;
+                        "
+                      />
+                    </div>
+                    <div class="card-body mt-5">
+                      <h5
+                        class="card-title pt-2 fw-bold"
+                        style="
+                          color: #fff;
+                          font-family: 'Montserrat', sans-serif;
+                        "
+                      >
+                        Nome
+                      </h5>
+                      <p class="card-text py-2" style="color: #fff">
+                        Contrary to popular belief, Lorem Ipsum is not simply
+                        random text. it has roots in a piece of classical Latin
+                        literature from
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slides aqui -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="mt-5"></div>
+              <div class="swiper-pagination"></div>
+        </section>
+
+              <!--Seção vídeo-->
+
+              <div class="container mt-4">
+                <div class="video" style="position: relative">
+                  <h3 id="projetos">CONFIRA NOSSOS PROJETOS</h3>
+                  <div
+                    class="video-container mt-3"
+                    style="position: relative; text-align: center"
+                  >
+                   <!-- <img
+                      class="imagem-superior-direito"
+                      src="./IMG/Macaquinho 3.png"
+                      alt="Imagem Superior Direito"
+                      style="
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        max-width: 100px;
+                        max-height: 100px;
+                      "
+                    />
+                   --> 
+                    <div class="ratio ratio-16x9">
+                        <iframe
+                            src="https://www.youtube.com/embed/8p7RJSkrP74?si=Bs-9IEwQt8kg2o5g&controls=0"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                        ></iframe>
+                    </div> 
+                   <!-- <img
+                      class="imagem-inferior-esquerdo"
+                      src="./IMG/Macaquinho 4.png"
+                      alt="Imagem Inferior Esquerdo"
+                      style="
+                        position: absolute;
+                        bottom: 20px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        max-width: 100px;
+                        max-height: 100px;
+                      "
+                    />
+                    -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="container">
+                <div class="button-container">
+                  <button
+                    type="button"
+                    class="btn btn-dark btn-lg mb-3 rotate"
+                    onclick="scrollToSection('fale-conosco')"
+                  >
+                    AFIM DE TRANSFORMAR
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark btn-lg rotate2"
+                    onclick="scrollToSection('fale-conosco')"
+                  >
+                    SEU NEGÓCIO ONLINE?
+                  </button>
+                </div>
+              </div>
+
+              <!--fale conosco-->
+              <section>
+                <div class="container mt-5 mx-auto" id="fale-conosco">
+                  <h4 class="titlecomece">COMECE HOJE MESMO!</h4>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <p class="p_comecehoje">
+                        Entre em contato conosco hoje mesmo para saber mais
+                        sobre como podemos ajudá-lo a alcançar seus objetivos de
+                        negócios. Nossos especialistas em tecnologia estão
+                        prontos para responder às suas perguntas e ajudá-lo a
+                        encontrar a solução certa para suas necessidades.
+                      </p>
+                    </div>
+                    <div class="col-md-6" id="foto-macaco">
+                      <div class="macaco">
+                        <img
+                          class="imgmacaco2"
+                          src="IMG/macaquinho 5.png"
+                          alt="img do macaco"
+                          class="img-fluid"
+                        />
+                        <a
+                          href="#fale-conosco"
+                          class="faleconosco"
+                          style="font-weight: bold"
+                          >Fale conosco</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              
+              <!--Rodapé do site-->
+             <footer class="footer">
+                <div class="mt-5 bg-black text-white">
+                  <div class="row justify-content-around">
+                    <div class="col-md-4 d-flex">
+                      <img
+                        class="foto"
+                        src="IMG/logo_codelab__1_-removebg-preview.png"
+                        alt="Codelab"
+                        width="220"
+                      />
+                    </div>
+                    <div class="col-12 col-md-3 mt-3">
+                      <h2>Início</h2>
+                      <ul class="list">
+                        <li><a href="#titulo-1">O que é a Codelab?</a></li>
+                        <li>
+                          <a href="#objetivo">Nosso objetivo como empresa</a>
+                        </li>
+                        <li><a href="#equipe">Conheça nossa equipe</a></li>
+                        <li><a href="#projetos">Confira nossos projetos</a></li>
+                      </ul>
+                    </div>
+                    <div
+                      class="col-12 col-md-4 mt-3 d-flex flex-column align-items-center"
+                    >
+                      <div class="redesSociais">
+                        <a class="bi bi-instagram me-2" href=""></a>
+                        <a class="bi bi-envelope me-2" href=""></a>
+                        <a class="bi bi-whatsapp" href=""></a>
+                      </div>
+                      <a href="" class="botao mt-4" style="font-weight: bold"
+                        >Fale conosco!</a
+                      >
+                    </div>
+
+                  <div class="container text-white text-center d-flex
+                    align-items-center justify-content-center" id="copyright">
+                    <div class="copy mt-3">
+                      <p><strong>© 2023 Copyright - Codelab</strong></p>
+                    </div>
+                  </div>
+              </footer>
+
+                  <script
+                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-q94+BZtLrkL1/ohfjR8c6L/A6qzNH9R2hBLwyoAfu3i/WCvQjzL2RQJ3uNHDISdU"
+                    crossorigin=""
+                  ></script>
+                  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+                  <script>
+                    var mySwiper = new Swiper(".swiper", {
+                      slidesPerView: 3,
+                      spaceBetween: 10,
+                      loop: true,
+                      pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                      },
+                      navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                      },
+                      breakpoints: {
+                        300: {
+                          slidesPerView: 1,
+                          spaceBetween: 0,
+                        },
+                        800: {
+                          slidesPerView: 2,
+                        },
+                        1200: {
+                          slidesPerView: 3,
+                        },
+                      },
+                    });
+
+                    function scrollToSection(sectionId) {
+                      const section = document.getElementById(sectionId);
+                      if (section) {
+                        section.scrollIntoView({ behavior: "smooth" });
+                      }
+                    }
+                  </script>
+                </div>
+            </div>
+          </div>
+      </div>
+  </body>
 </html>
